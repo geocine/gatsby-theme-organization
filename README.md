@@ -2,6 +2,8 @@
 
 Create a landing page for your Github Organization
 
+![screenshot](https://i.imgur.com/AbGyhZr.png)
+
 ## What you get from this theme
 
 - Style & Theming integration through [theme-ui](https://theme-ui.com/), [react-boostrap](https://react-bootstrap.github.io/), and [emotionjs](https://emotion.sh)
