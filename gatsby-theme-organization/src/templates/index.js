@@ -10,7 +10,10 @@ import { graphql, useStaticQuery } from 'gatsby'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 
+import Helmet from 'react-helmet'
+
 import 'src/css/theme.scss'
+import favicon from '../assets/favicon.ico'
 
 const MastHead = styled(Jumbotron)`
   background-color: ${prop => prop.theme.colors.dark};
@@ -60,6 +63,9 @@ const IndexPage = () => {
 
   return (
     <Layout>
+      <Helmet>
+        <link rel="icon" href={favicon} type="image/x-icon" />
+      </Helmet>
       <MastHead fluid>
         <Content>
           <img
