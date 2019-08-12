@@ -19,7 +19,7 @@ To use this theme in your Gatsby sites, follow these instructions:
     ```sh
     npm install --save @geocine/gatsby-theme-organization
     ```
-    > NOTE: If you are starting a new gatsby project, you should also install `react`, `react-dom` and `gatsby`
+    > NOTE: If you are starting a new gatsby project, you should also install `react`, `react-dom` and `gatsby`. You may also use the [gasby-starter-organization](https://github.com/geocine/gatsby-starter-organization) if you don't want to set this up.
 
 2.  Add the theme to your `gatsby-config.js`. For more options, [see below](#theme-options):
 
