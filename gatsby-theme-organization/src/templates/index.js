@@ -99,7 +99,7 @@ const IndexPage = () => {
           }}
         >
           {projects.map((project, key) => (
-            <Box sx={{ width: ['33%'], px: 2, py: 2 }} key={key}>
+            <Box sx={{ width: ['100%', '50%', '33%'], px: 2, py: 2 }} key={key}>
               <InfoCard name={project.name} href={project.url}>
                 {project.description}
               </InfoCard>
