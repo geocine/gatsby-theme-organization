@@ -19,7 +19,7 @@ To use this theme in your Gatsby sites, follow these instructions:
     ```
     > NOTE: If you are starting a new gatsby project, you should also install `react`, `react-dom` and `gatsby`
 
-2.  Add the theme to your `gatsby-config.js`:
+2.  Add the theme to your `gatsby-config.js`. For more options, [see below](#theme-options):
 
     ```js
     module.exports = {
