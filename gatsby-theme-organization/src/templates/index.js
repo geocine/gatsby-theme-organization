@@ -14,6 +14,10 @@ import Helmet from 'react-helmet'
 
 import 'src/css/theme.scss'
 import favicon from '../assets/favicon.ico'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
+// Prevent fontawesome from dynamically adding its css since we did it manually above
+config.autoAddCss = false
 
 const MastHead = styled(Jumbotron)`
   background-color: ${prop => prop.theme.colors.dark};
