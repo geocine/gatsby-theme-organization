@@ -1,0 +1,11 @@
+- name: aelbore/create-custom-elements
+  url: https://github.com/aelbore/create-custom-elements
+  description: Boilerplate to create custom elements
+
+- name: geocine/custom-elements-ts
+  url: https://github.com/geocine/custom-elements-ts
+  description: Create native custom elements using Typescript
+
+- name: goasis
+  url: https://goasis.io/
+  description: Our github solely dedicated for open source Golang software
