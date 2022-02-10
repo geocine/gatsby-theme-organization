@@ -32,7 +32,7 @@
     "gatsby-plugin-theme-ui": "^0.2.26",
     "gatsby-source-filesystem": "^2.1.8",
     "gatsby-transformer-yaml": "^2.2.4",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "postcss-import": "^12.0.1",
     "react-bootstrap": "^1.0.0-beta.10",
     "react-helmet": "^5.2.1",
